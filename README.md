@@ -10,6 +10,11 @@
 
 ShortLink 是一个基于 FastAPI 实现的短链接服务。项目提供创建短链接、短链接跳转、访问次数统计等功能，数据可以保存到本地 SQLite，也可以通过环境变量切换到云端 PostgreSQL 数据库。项目已配置 Dockerfile 和 Render 所需的启动方式，适合直接部署到云端运行。
 
+## 在线预览
+
+- **服务地址**：https://shortlink-qcqh.onrender.com
+- **接口文档**：https://shortlink-qcqh.onrender.com/docs
+
 ## 功能特性
 
 - **创建短链接**：`POST /shorten` 接收原始 URL，生成 6 位随机短码，并返回完整短链接。
